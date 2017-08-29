@@ -12,7 +12,12 @@ namespace HelloWorld
         {
             Console.WriteLine("Indtast navn");
             var navn = Console.ReadLine();
-            Console.WriteLine("Velkommen "+navn.ToUpper());
+            var NAVN = navn.ToUpper();
+            UdskrivVelkomst(NAVN);
+        }
+        public static void UdskrivVelkomst(string navn)
+        {
+            Console.WriteLine("Velkommen " + navn);
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
