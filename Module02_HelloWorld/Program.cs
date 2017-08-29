@@ -14,6 +14,7 @@
             }
 
             DebugDemo();
+            DebugDemo();
         }
 
         static void DebugDemo() {
