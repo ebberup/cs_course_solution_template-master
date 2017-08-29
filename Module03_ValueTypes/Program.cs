@@ -1,4 +1,6 @@
-﻿namespace Module03_ValueTypes
+﻿using System;
+
+namespace Module03_ValueTypes
 {
     class Program
     {
@@ -9,7 +11,10 @@
             {
                 System.Console.Write("Press any key to continue . . . ");
                 System.Console.ReadKey();
+
             }
-        }
+            var dato = DateTime.Now;
+            Console.WriteLine(dato.ToString());
     }
 }
+        }
