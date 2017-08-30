@@ -2,6 +2,12 @@
 
 namespace Module03_ValueTypes
 {
+    enum Køn { mand,kvinde};
+    struct Person
+    {
+        public string navn;
+        public Køn køn;
+    }
     class Program
     {
         static void Main(string[] args)
@@ -15,6 +21,10 @@ namespace Module03_ValueTypes
             }
             var dato = DateTime.Now;
             Console.WriteLine(dato.ToString());
+            var person = Køn.mand;
+            var nå = Enum.TryParse("1", out person);
+
+            Person persons = new Person() {navn="henning",køn=Køn.mand };
     }
 }
         }
