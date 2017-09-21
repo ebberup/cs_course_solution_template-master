@@ -12,6 +12,8 @@ namespace Module_06_OOP
         private int age;
         private bool alive;
 
+        public string Efternavn { get; set; }
+
         public string Name { get => name; set => name = value; }
         public int Age { get => age; set => age = value; }
         public bool Alive { get => alive; set => alive = value; }
