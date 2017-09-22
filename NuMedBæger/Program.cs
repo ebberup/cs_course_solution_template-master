@@ -24,6 +24,15 @@ namespace NuMedBæger
             b.Ryst();
             b.Skriv();
 
+            //YatzyBæger d = new YatzyBæger(2, 2, 2, 4, 4);
+            //Console.WriteLine(d.Yatzy);
+            //Console.WriteLine(d.Hus);
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                System.Console.Write("Press any key to continue . . . ");
+                System.Console.ReadKey();
+            }
+
         }
     }
 }
