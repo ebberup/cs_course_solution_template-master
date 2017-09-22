@@ -14,6 +14,8 @@ namespace ArvTerning
             t.Skriv();
             LudoTerning l = new LudoTerning();
             l.Skriv();
+            LudoTerning l2 = new LudoTerning(5);
+            l2.Skriv();
 
 
 
