@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD24CAA3-9A99-4922-B73F-2A1F55486AFF}</ProjectGuid>
+    <ProjectGuid>{BD4E3BEF-4947-44B3-BBF6-974300BF4264}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Module09_ExceptionHandling</RootNamespace>
-    <AssemblyName>Module09_ExceptionHandling</AssemblyName>
+    <RootNamespace>ExceptionNLog</RootNamespace>
+    <AssemblyName>ExceptionNLog</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
