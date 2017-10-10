@@ -104,6 +104,11 @@ namespace Collections
                     Console.WriteLine(item.ToString());
                 }
             }
-        } 
+        }
+//Instructor: Michell Cronberg
+//Phone: +45 40 10 32 42
+//Mail: michell @cronberg.dk
+//LinkedId: https://goo.gl/iVjaqF
+//About: http://om.cronberg.dk
     }
 }
