@@ -17,3 +17,7 @@ namespace Module01_CS
         }
     }
 }
+
+//Forged from: https://github.com/devcronberg/cs201708aa
+
+//Terning origin: https://github.com/cs201708aa/TerningApplikation.git
